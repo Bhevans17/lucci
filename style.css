@@ -1,0 +1,97 @@
+body {
+  font-family: "Playfair Display", serif;
+  height: 2000px;
+}
+
+/***************** NAVBAR *****************/
+.navbar {
+  display: flex;
+  position: fixed;
+  height: auto;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 1000;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.navbar__logo {
+  font-weight: bold;
+}
+
+.navbar__icons i {
+  margin-right: 5px;
+}
+
+/***************** SIDEMENU *****************/
+.sidemenu {
+  text-align: center;
+  display: none;
+}
+
+.sidemenu__logo {
+  color: #78bb4f;
+  margin-bottom: 40px;
+}
+
+.sidemenu .fa-times {
+  display: block;
+  text-align: left;
+  padding: 15px 0 0 15px;
+}
+
+.sidemenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidemenu ul li {
+  margin-bottom: 20px;
+}
+
+.sidemenu a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidemenu img {
+  width: 100%;
+  height: auto;
+}
+/***************** BAG *****************/
+.bag {
+  background-color: #e7e7e7;
+  text-align: center;
+  padding: 20px;
+}
+
+.bag-img {
+  width: 100%;
+  height: auto;
+}
+
+.section img {
+  width: 100%;
+  height: auto;
+}
+
+.mySlides .text {
+  color: black;
+}
+
+/***************** BUTTON *****************/
+.btn-dark {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+/***************** SECTION 3 *****************/
+.shoe-img {
+  width: 100%;
+  height: auto;
+}

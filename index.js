@@ -4,13 +4,16 @@
   let menuButton = document.getElementsByClassName("navbar__hamburger")[0];
   let crossButton = document.getElementsByClassName("fa-times")[0];
   let sideMenu = document.getElementsByClassName("sidemenu")[0];
+  let mobileContent = document.getElementsByClassName("mobile-content")[0];
 
   menuButton.onclick = () => {
     sideMenu.style.display = "block";
+    mobileContent.style.display = "none";
   };
 
   crossButton.onclick = () => {
     sideMenu.style.display = "none";
+    mobileContent.style.display = "block";
   };
 
   /* Navbar scroll animation */

@@ -98,6 +98,7 @@ body {
 
 /***************** FOOTER *****************/
 footer {
+  color: white;
   background-color: #1b1b1b;
 }
 
@@ -107,4 +108,5 @@ footer ul {
 
 footer a {
   text-decoration: none;
+  color: grey;
 }

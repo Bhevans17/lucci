@@ -95,3 +95,8 @@ body {
   width: 100%;
   height: auto;
 }
+
+/***************** FOOTER *****************/
+footer {
+  background-color: #1b1b1b;
+}
